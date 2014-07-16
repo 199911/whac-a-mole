@@ -117,7 +117,10 @@ var symbols = {
                 "up": 1000
             },
             timeline: [
-            ]
+                { id: "eid81", trigger: [ function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['stop', '${_mole1}', [1000] ], ""], position: 0 },
+                { id: "eid82", trigger: [ function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['stop', '${_mole3}', [1000] ], ""], position: 0 },
+                { id: "eid83", trigger: [ function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['stop', '${_mole2}', [1000] ], ""], position: 0 },
+                { id: "eid84", trigger: [ function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['stop', '${_mole4}', [1000] ], ""], position: 0 }            ]
         }
     }
 },
